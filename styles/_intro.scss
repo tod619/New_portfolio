@@ -80,3 +80,21 @@ nav {
     padding: 1rem 3rem;
     border-radius: 2rem;
 }
+
+#plant-left {
+    animation: plant 1.5s ease-in infinite alternate;
+}
+
+#plant-right {
+    animation: plant 1.5s ease-in infinite alternate 0.5s;
+}
+
+@keyframes plant {
+    from {
+        transform: translateY(0%);
+    }
+
+    to {
+        transform: translateY(-30%);
+    }
+}

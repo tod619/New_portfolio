@@ -182,4 +182,36 @@ nav ul {
   padding: 1rem 3rem;
   border-radius: 2rem;
 }
+
+#plant-left {
+  -webkit-animation: plant 1.5s ease-in infinite alternate;
+          animation: plant 1.5s ease-in infinite alternate;
+}
+
+#plant-right {
+  -webkit-animation: plant 1.5s ease-in infinite alternate 0.5s;
+          animation: plant 1.5s ease-in infinite alternate 0.5s;
+}
+
+@-webkit-keyframes plant {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  to {
+    -webkit-transform: translateY(-30%);
+            transform: translateY(-30%);
+  }
+}
+
+@keyframes plant {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  to {
+    -webkit-transform: translateY(-30%);
+            transform: translateY(-30%);
+  }
+}
 /*# sourceMappingURL=style.css.map */
