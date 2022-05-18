@@ -89,6 +89,11 @@ nav {
     animation: plant 1.5s ease-in infinite alternate 0.5s;
 }
 
+#me {
+    transform-origin: bottom;
+    animation: me 1s ease infinite alternate;
+}
+
 @keyframes plant {
     from {
         transform: translateY(0%);
@@ -96,5 +101,15 @@ nav {
 
     to {
         transform: translateY(-30%);
+    }
+}
+
+@keyframes me {
+    from {
+        transform: rotateZ(-3deg);
+    }
+
+    to {
+        transform: rotateZ(3deg);
     }
 }
