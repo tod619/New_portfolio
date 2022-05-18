@@ -94,6 +94,12 @@ nav {
     animation: me 1s ease infinite alternate;
 }
 
+#clock-arrow {
+    transform-origin: bottom;
+    transform-box: fill-box;
+    animation: clock 1.5s linear infinite;
+}
+
 @keyframes plant {
     from {
         transform: translateY(0%);
@@ -111,5 +117,15 @@ nav {
 
     to {
         transform: rotateZ(3deg);
+    }
+}
+
+@keyframes clock {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
     }
 }
