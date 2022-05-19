@@ -37,8 +37,8 @@ nav {
         padding-top: 2rem;
         display: inline-block;
         background: $gradient;
-        background-clip: text;
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
@@ -129,3 +129,4 @@ nav {
         transform: rotateZ(360deg);
     }
 }
+
