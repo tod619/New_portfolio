@@ -82,5 +82,14 @@ $gray-text: #2c2c2c;
         text-align: center;
     }
 
+    .elana-joy,
+    .travelly {
+        flex: 1 1 50rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
    
 }

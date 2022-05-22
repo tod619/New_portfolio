@@ -14,4 +14,5 @@
 .travelly,
 .elana-joy {
     flex: 1 1 40rem;
+    @include flex(center, center, column);
 }
